@@ -1,0 +1,22 @@
+/* 
+  Localization.strings
+  scheduleTable
+
+  Created by Markus Tenghamn on 5/7/12.
+  Copyright (c) 2012 Markspixel. All rights reserved.
+*/
+"wifierrortitle" = "No connection";
+"wifidetailerror" = "No connection to schedule server, please make sure 3G or WIFI is enabled.";
+"error" = "Error";
+"coursedataerror" = "Courses could not be loaded.";
+"addcourses" = "Add courses";
+"nocoursesselected" = "You have not selected any courses.";
+"cancel" = "Cancel";
+"ok" = "Ok";
+"remove" = "Remove";
+"sureremove" = "Are you sure you want to remove the courses?";
+"noselected" = "No courses have been selected";
+"removeall" = "Remove all courses";
+"removeallmsg" = "Are you sure you want to remove all courses?";
+"nonetoremove" = "There are no courses to remove";
+"all" = "All";

@@ -1,0 +1,25 @@
+/* 
+  Localization.strings
+  scheduleTable
+
+  Created by Markus Tenghamn on 5/7/12.
+  Copyright (c) 2012 Markspixel. All rights reserved.
+*/
+"wifierrortitle" = "Ingen anslutning";
+"wifidetailerror" = "Ingen anslutning till schema servern, verifiera att du har 3G eller WIFI anslutning.";
+"error" = "Fel";
+"coursedataerror" = "Kurser kunde inte laddas.";
+"addcourses" = "Lägg till kurser";
+"nocoursesselected" = "Du har inte valt några kurser";
+"cancel" = "Avbryt";
+"ok" = "Ok";
+"remove" = "Ta bort";
+"sureremove" = "Är du säker på att du vill ta bort kurserna?";
+"noselected" = "Du har inte valt några kurser";
+"removeall" = "Ta bort alla kurser?";
+"removeallmsg" = "Är du säker på att du vill ta bort alla kurser?";
+"nonetoremove" = "Det finns inga kurser att ta bort";
+"all" = "Alla";
+
+
+
