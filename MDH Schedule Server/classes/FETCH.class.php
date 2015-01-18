@@ -156,7 +156,10 @@ class FETCH
                         $coursesplit = explode('-', $course);
                         $parts = explode(",", $course, 2);
                         $code = trim($parts[0]);
-                        $desc = trim($parts[1]);
+                        $desc = "";
+                        if (isset($parts[1])) {
+                            $desc = trim($parts[1]);
+                        }
                         $findcourses = mysql_query("SELECT * FROM Teachers WHERE TeacherID = '$code'");
                         if (mysql_num_rows($findcourses) == 0) {
                             mysql_query("INSERT INTO Teachers (TeacherID, TeacherName) VALUES ('$code','$desc')");
@@ -171,7 +174,10 @@ class FETCH
                         $coursesplit = explode('-', $course);
                         $parts = explode(",", $course, 2);
                         $code = trim($parts[0]);
-                        $desc = trim($parts[1]);
+                        $desc = "";
+                        if (isset($parts[1])) {
+                            $desc = trim($parts[1]);
+                        }
                         $findcourses = mysql_query("SELECT * FROM Rooms WHERE RoomID = '$code'");
                         if (mysql_num_rows($findcourses) == 0) {
                             mysql_query("INSERT INTO Rooms (RoomID, RoomDescription) VALUES ('$code','$desc')");
